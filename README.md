@@ -119,7 +119,7 @@
 
   * 最终文件 libmp3lame.a 包含armv7和arm64
 
-    <img src=""![ibmp3lam](/Users/wangzhiming/Documents/libmp3lame.png)>
+    <img src="![ibmp3lam](/Users/wangzhiming/Documents/libmp3lame.png)">
 
   * 在终端查看libmp3lame.a 信息  — file libmp3lame.a
 
