@@ -1,0 +1,6 @@
+framework module Pods_PhukerTour {
+  umbrella header "Pods-PhukerTour-umbrella.h"
+
+  export *
+  module * { export * }
+}

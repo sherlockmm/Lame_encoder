@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D59A920206FDB7B00955DB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D59A91F206FDB7B00955DB1 /* AppDelegate.m */; };
+		6D59A923206FDB7B00955DB1 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6D59A922206FDB7B00955DB1 /* ViewController.mm */; };
+		6D59A926206FDB7B00955DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D59A924206FDB7B00955DB1 /* Main.storyboard */; };
+		6D59A928206FDB7C00955DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D59A927206FDB7C00955DB1 /* Assets.xcassets */; };
+		6D59A92B206FDB7C00955DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D59A929206FDB7C00955DB1 /* LaunchScreen.storyboard */; };
+		6D59A92E206FDB7C00955DB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D59A92D206FDB7C00955DB1 /* main.m */; };
+		6D59A938206FDB7D00955DB1 /* PhukerTourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D59A937206FDB7D00955DB1 /* PhukerTourTests.m */; };
+		6D59A943206FDB7D00955DB1 /* PhukerTourUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D59A942206FDB7D00955DB1 /* PhukerTourUITests.m */; };
+		6D59A968206FE63900955DB1 /* MTMp3Encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D59A966206FE63900955DB1 /* MTMp3Encoder.cpp */; };
+		6D59A96C2070B5ED00955DB1 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D59A96B2070B5ED00955DB1 /* libmp3lame.a */; };
+		98E10D91778CAA14323C9F39 /* Pods_PhukerTour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E449F832F5D9A3917464A /* Pods_PhukerTour.framework */; };
+		C0F5485179F76E38166E7E80 /* Pods_PhukerTourTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D8E8C4E225DAA6A4B3BAC8 /* Pods_PhukerTourTests.framework */; };
+		D33CFCE4707B6A08C382AE46 /* Pods_PhukerTourUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D389374F3146F40115F38329 /* Pods_PhukerTourUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D59A934206FDB7D00955DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D59A913206FDB7B00955DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D59A91A206FDB7B00955DB1;
+			remoteInfo = PhukerTour;
+		};
+		6D59A93F206FDB7D00955DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D59A913206FDB7B00955DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D59A91A206FDB7B00955DB1;
+			remoteInfo = PhukerTour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E7FC75EE0BC384968B2B6D /* Pods-PhukerTourTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhukerTourTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhukerTourTests/Pods-PhukerTourTests.release.xcconfig"; sourceTree = "<group>"; };
+		121639BA19512AB42FD554D1 /* Pods-PhukerTourUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhukerTourUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhukerTourUITests/Pods-PhukerTourUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4918BC4261BBB5B4E081DFBA /* Pods-PhukerTourUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhukerTourUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhukerTourUITests/Pods-PhukerTourUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4DC5F408E699E34C8A2BA965 /* Pods-PhukerTour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhukerTour.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhukerTour/Pods-PhukerTour.release.xcconfig"; sourceTree = "<group>"; };
+		6D59A91B206FDB7B00955DB1 /* PhukerTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhukerTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D59A91E206FDB7B00955DB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D59A91F206FDB7B00955DB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D59A921206FDB7B00955DB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D59A922206FDB7B00955DB1 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		6D59A925206FDB7B00955DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D59A927206FDB7C00955DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D59A92A206FDB7C00955DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D59A92C206FDB7C00955DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D59A92D206FDB7C00955DB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D59A933206FDB7D00955DB1 /* PhukerTourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhukerTourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D59A937206FDB7D00955DB1 /* PhukerTourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhukerTourTests.m; sourceTree = "<group>"; };
+		6D59A939206FDB7D00955DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D59A93E206FDB7D00955DB1 /* PhukerTourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhukerTourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D59A942206FDB7D00955DB1 /* PhukerTourUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhukerTourUITests.m; sourceTree = "<group>"; };
+		6D59A944206FDB7D00955DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D59A958206FDC6400955DB1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6D59A959206FDC9700955DB1 /* MTMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTMacro.h; sourceTree = "<group>"; };
+		6D59A966206FE63900955DB1 /* MTMp3Encoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MTMp3Encoder.cpp; sourceTree = "<group>"; };
+		6D59A967206FE63900955DB1 /* MTMp3Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTMp3Encoder.h; sourceTree = "<group>"; };
+		6D59A96B2070B5ED00955DB1 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		6D59A96D2070B60D00955DB1 /* lame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		919E449F832F5D9A3917464A /* Pods_PhukerTour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhukerTour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D8E8C4E225DAA6A4B3BAC8 /* Pods_PhukerTourTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhukerTourTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6A719C025CCAC98C77D7E9 /* Pods-PhukerTourTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhukerTourTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhukerTourTests/Pods-PhukerTourTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D389374F3146F40115F38329 /* Pods_PhukerTourUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhukerTourUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC46DF2C3BEF00EAA61B5B5B /* Pods-PhukerTour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhukerTour.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhukerTour/Pods-PhukerTour.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D59A918206FDB7B00955DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E10D91778CAA14323C9F39 /* Pods_PhukerTour.framework in Frameworks */,
+				6D59A96C2070B5ED00955DB1 /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D59A930206FDB7D00955DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F5485179F76E38166E7E80 /* Pods_PhukerTourTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D59A93B206FDB7D00955DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33CFCE4707B6A08C382AE46 /* Pods_PhukerTourUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6071FC49F401A83C9C776742 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				919E449F832F5D9A3917464A /* Pods_PhukerTour.framework */,
+				B3D8E8C4E225DAA6A4B3BAC8 /* Pods_PhukerTourTests.framework */,
+				D389374F3146F40115F38329 /* Pods_PhukerTourUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D59A912206FDB7B00955DB1 = {
+			isa = PBXGroup;
+			children = (
+				6D59A91D206FDB7B00955DB1 /* PhukerTour */,
+				6D59A936206FDB7D00955DB1 /* PhukerTourTests */,
+				6D59A941206FDB7D00955DB1 /* PhukerTourUITests */,
+				6D59A91C206FDB7B00955DB1 /* Products */,
+				BA6D0ED8ED076F54BA958559 /* Pods */,
+				6071FC49F401A83C9C776742 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D59A91C206FDB7B00955DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A91B206FDB7B00955DB1 /* PhukerTour.app */,
+				6D59A933206FDB7D00955DB1 /* PhukerTourTests.xctest */,
+				6D59A93E206FDB7D00955DB1 /* PhukerTourUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D59A91D206FDB7B00955DB1 /* PhukerTour */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A950206FDB8500955DB1 /* Base */,
+				6D59A951206FDB8B00955DB1 /* Classes */,
+				6D59A954206FDBFB00955DB1 /* Resource */,
+				6D59A953206FDBF400955DB1 /* Supporting Files */,
+				6D59A921206FDB7B00955DB1 /* ViewController.h */,
+				6D59A922206FDB7B00955DB1 /* ViewController.mm */,
+				6D59A924206FDB7B00955DB1 /* Main.storyboard */,
+				6D59A927206FDB7C00955DB1 /* Assets.xcassets */,
+				6D59A929206FDB7C00955DB1 /* LaunchScreen.storyboard */,
+				6D59A92C206FDB7C00955DB1 /* Info.plist */,
+				6D59A92D206FDB7C00955DB1 /* main.m */,
+			);
+			path = PhukerTour;
+			sourceTree = "<group>";
+		};
+		6D59A936206FDB7D00955DB1 /* PhukerTourTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A937206FDB7D00955DB1 /* PhukerTourTests.m */,
+				6D59A939206FDB7D00955DB1 /* Info.plist */,
+			);
+			path = PhukerTourTests;
+			sourceTree = "<group>";
+		};
+		6D59A941206FDB7D00955DB1 /* PhukerTourUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A942206FDB7D00955DB1 /* PhukerTourUITests.m */,
+				6D59A944206FDB7D00955DB1 /* Info.plist */,
+			);
+			path = PhukerTourUITests;
+			sourceTree = "<group>";
+		};
+		6D59A950206FDB8500955DB1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A9692070B5BF00955DB1 /* Lib */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6D59A951206FDB8B00955DB1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A956206FDC2B00955DB1 /* MTBusiness */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6D59A953206FDBF400955DB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A91E206FDB7B00955DB1 /* AppDelegate.h */,
+				6D59A91F206FDB7B00955DB1 /* AppDelegate.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D59A954206FDBFB00955DB1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6D59A955206FDC2000955DB1 /* MTPackage */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A957206FDC3D00955DB1 /* MTGlobal */,
+			);
+			path = MTPackage;
+			sourceTree = "<group>";
+		};
+		6D59A956206FDC2B00955DB1 /* MTBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A964206FE5DC00955DB1 /* Encoder */,
+				6D59A955206FDC2000955DB1 /* MTPackage */,
+			);
+			path = MTBusiness;
+			sourceTree = "<group>";
+		};
+		6D59A957206FDC3D00955DB1 /* MTGlobal */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A958206FDC6400955DB1 /* PrefixHeader.pch */,
+				6D59A959206FDC9700955DB1 /* MTMacro.h */,
+			);
+			path = MTGlobal;
+			sourceTree = "<group>";
+		};
+		6D59A964206FE5DC00955DB1 /* Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A965206FE5F900955DB1 /* Mp3Encoder */,
+			);
+			path = Encoder;
+			sourceTree = "<group>";
+		};
+		6D59A965206FE5F900955DB1 /* Mp3Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A966206FE63900955DB1 /* MTMp3Encoder.cpp */,
+				6D59A967206FE63900955DB1 /* MTMp3Encoder.h */,
+			);
+			path = Mp3Encoder;
+			sourceTree = "<group>";
+		};
+		6D59A9692070B5BF00955DB1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A96A2070B5C500955DB1 /* lame */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		6D59A96A2070B5C500955DB1 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A96D2070B60D00955DB1 /* lame.h */,
+				6D59A96B2070B5ED00955DB1 /* libmp3lame.a */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		BA6D0ED8ED076F54BA958559 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC46DF2C3BEF00EAA61B5B5B /* Pods-PhukerTour.debug.xcconfig */,
+				4DC5F408E699E34C8A2BA965 /* Pods-PhukerTour.release.xcconfig */,
+				CE6A719C025CCAC98C77D7E9 /* Pods-PhukerTourTests.debug.xcconfig */,
+				09E7FC75EE0BC384968B2B6D /* Pods-PhukerTourTests.release.xcconfig */,
+				121639BA19512AB42FD554D1 /* Pods-PhukerTourUITests.debug.xcconfig */,
+				4918BC4261BBB5B4E081DFBA /* Pods-PhukerTourUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D59A91A206FDB7B00955DB1 /* PhukerTour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D59A947206FDB7D00955DB1 /* Build configuration list for PBXNativeTarget "PhukerTour" */;
+			buildPhases = (
+				780229A99CD8DD0EA7E94244 /* [CP] Check Pods Manifest.lock */,
+				6D59A917206FDB7B00955DB1 /* Sources */,
+				6D59A918206FDB7B00955DB1 /* Frameworks */,
+				6D59A919206FDB7B00955DB1 /* Resources */,
+				5579979069A84589348B7C6E /* [CP] Embed Pods Frameworks */,
+				0C9A3B7F49E4FABF455964FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhukerTour;
+			productName = PhukerTour;
+			productReference = 6D59A91B206FDB7B00955DB1 /* PhukerTour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D59A932206FDB7D00955DB1 /* PhukerTourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D59A94A206FDB7D00955DB1 /* Build configuration list for PBXNativeTarget "PhukerTourTests" */;
+			buildPhases = (
+				35706BAF3E9214F090018D15 /* [CP] Check Pods Manifest.lock */,
+				6D59A92F206FDB7D00955DB1 /* Sources */,
+				6D59A930206FDB7D00955DB1 /* Frameworks */,
+				6D59A931206FDB7D00955DB1 /* Resources */,
+				12474B91F49EB04E34CE83F5 /* [CP] Embed Pods Frameworks */,
+				88128F71011E01465FACFF8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D59A935206FDB7D00955DB1 /* PBXTargetDependency */,
+			);
+			name = PhukerTourTests;
+			productName = PhukerTourTests;
+			productReference = 6D59A933206FDB7D00955DB1 /* PhukerTourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D59A93D206FDB7D00955DB1 /* PhukerTourUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D59A94D206FDB7D00955DB1 /* Build configuration list for PBXNativeTarget "PhukerTourUITests" */;
+			buildPhases = (
+				A39132D81AF7FB04C1B9CBE5 /* [CP] Check Pods Manifest.lock */,
+				6D59A93A206FDB7D00955DB1 /* Sources */,
+				6D59A93B206FDB7D00955DB1 /* Frameworks */,
+				6D59A93C206FDB7D00955DB1 /* Resources */,
+				5D9E88CC163B3865989D9E8A /* [CP] Embed Pods Frameworks */,
+				6B67C18AC653AED6A08A6604 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D59A940206FDB7D00955DB1 /* PBXTargetDependency */,
+			);
+			name = PhukerTourUITests;
+			productName = PhukerTourUITests;
+			productReference = 6D59A93E206FDB7D00955DB1 /* PhukerTourUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D59A913206FDB7B00955DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MT;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "王智明";
+				TargetAttributes = {
+					6D59A91A206FDB7B00955DB1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					6D59A932206FDB7D00955DB1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6D59A91A206FDB7B00955DB1;
+					};
+					6D59A93D206FDB7D00955DB1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6D59A91A206FDB7B00955DB1;
+					};
+				};
+			};
+			buildConfigurationList = 6D59A916206FDB7B00955DB1 /* Build configuration list for PBXProject "PhukerTour" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D59A912206FDB7B00955DB1;
+			productRefGroup = 6D59A91C206FDB7B00955DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D59A91A206FDB7B00955DB1 /* PhukerTour */,
+				6D59A932206FDB7D00955DB1 /* PhukerTourTests */,
+				6D59A93D206FDB7D00955DB1 /* PhukerTourUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D59A919206FDB7B00955DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D59A92B206FDB7C00955DB1 /* LaunchScreen.storyboard in Resources */,
+				6D59A928206FDB7C00955DB1 /* Assets.xcassets in Resources */,
+				6D59A926206FDB7B00955DB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D59A931206FDB7D00955DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D59A93C206FDB7D00955DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C9A3B7F49E4FABF455964FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhukerTour/Pods-PhukerTour-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12474B91F49EB04E34CE83F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhukerTourTests/Pods-PhukerTourTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35706BAF3E9214F090018D15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhukerTourTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5579979069A84589348B7C6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhukerTour/Pods-PhukerTour-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhukerTour/Pods-PhukerTour-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D9E88CC163B3865989D9E8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhukerTourUITests/Pods-PhukerTourUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B67C18AC653AED6A08A6604 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhukerTourUITests/Pods-PhukerTourUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		780229A99CD8DD0EA7E94244 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhukerTour-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88128F71011E01465FACFF8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhukerTourTests/Pods-PhukerTourTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A39132D81AF7FB04C1B9CBE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhukerTourUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D59A917206FDB7B00955DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D59A923206FDB7B00955DB1 /* ViewController.mm in Sources */,
+				6D59A92E206FDB7C00955DB1 /* main.m in Sources */,
+				6D59A968206FE63900955DB1 /* MTMp3Encoder.cpp in Sources */,
+				6D59A920206FDB7B00955DB1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D59A92F206FDB7D00955DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D59A938206FDB7D00955DB1 /* PhukerTourTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D59A93A206FDB7D00955DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D59A943206FDB7D00955DB1 /* PhukerTourUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D59A935206FDB7D00955DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D59A91A206FDB7B00955DB1 /* PhukerTour */;
+			targetProxy = 6D59A934206FDB7D00955DB1 /* PBXContainerItemProxy */;
+		};
+		6D59A940206FDB7D00955DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D59A91A206FDB7B00955DB1 /* PhukerTour */;
+			targetProxy = 6D59A93F206FDB7D00955DB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D59A924206FDB7B00955DB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D59A925206FDB7B00955DB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D59A929206FDB7C00955DB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D59A92A206FDB7C00955DB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D59A945206FDB7D00955DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D59A946206FDB7D00955DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D59A948206FDB7D00955DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC46DF2C3BEF00EAA61B5B5B /* Pods-PhukerTour.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3ZZL9NMTQ;
+				GCC_PREFIX_HEADER = "/Users/wangzhiming/Desktop/iOS开发/SherLock_IOS/TestDemo/PhukerTour/PhukerTour/Classes/MTBusiness/MTPackage/MTGlobal/PrefixHeader.pch";
+				INFOPLIST_FILE = PhukerTour/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhukerTour/Base/Lib/lame",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"Mantle\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzm.PhukerTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D59A949206FDB7D00955DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC5F408E699E34C8A2BA965 /* Pods-PhukerTour.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3ZZL9NMTQ;
+				GCC_PREFIX_HEADER = "/Users/wangzhiming/Desktop/iOS开发/SherLock_IOS/TestDemo/PhukerTour/PhukerTour/Classes/MTBusiness/MTPackage/MTGlobal/PrefixHeader.pch";
+				INFOPLIST_FILE = PhukerTour/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhukerTour/Base/Lib/lame",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"Mantle\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzm.PhukerTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D59A94B206FDB7D00955DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6A719C025CCAC98C77D7E9 /* Pods-PhukerTourTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3ZZL9NMTQ;
+				INFOPLIST_FILE = PhukerTourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzm.PhukerTourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhukerTour.app/PhukerTour";
+			};
+			name = Debug;
+		};
+		6D59A94C206FDB7D00955DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E7FC75EE0BC384968B2B6D /* Pods-PhukerTourTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3ZZL9NMTQ;
+				INFOPLIST_FILE = PhukerTourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzm.PhukerTourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhukerTour.app/PhukerTour";
+			};
+			name = Release;
+		};
+		6D59A94E206FDB7D00955DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121639BA19512AB42FD554D1 /* Pods-PhukerTourUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3ZZL9NMTQ;
+				INFOPLIST_FILE = PhukerTourUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzm.PhukerTourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhukerTour;
+			};
+			name = Debug;
+		};
+		6D59A94F206FDB7D00955DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4918BC4261BBB5B4E081DFBA /* Pods-PhukerTourUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3ZZL9NMTQ;
+				INFOPLIST_FILE = PhukerTourUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzm.PhukerTourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhukerTour;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D59A916206FDB7B00955DB1 /* Build configuration list for PBXProject "PhukerTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D59A945206FDB7D00955DB1 /* Debug */,
+				6D59A946206FDB7D00955DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D59A947206FDB7D00955DB1 /* Build configuration list for PBXNativeTarget "PhukerTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D59A948206FDB7D00955DB1 /* Debug */,
+				6D59A949206FDB7D00955DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D59A94A206FDB7D00955DB1 /* Build configuration list for PBXNativeTarget "PhukerTourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D59A94B206FDB7D00955DB1 /* Debug */,
+				6D59A94C206FDB7D00955DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D59A94D206FDB7D00955DB1 /* Build configuration list for PBXNativeTarget "PhukerTourUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D59A94E206FDB7D00955DB1 /* Debug */,
+				6D59A94F206FDB7D00955DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D59A913206FDB7B00955DB1 /* Project object */;
+}
